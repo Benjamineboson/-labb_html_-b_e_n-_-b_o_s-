@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+       <head>
+           <style>
+           body{
+               background-image: url(media/index.jpg);
+           }               
+               table,th{
+                   border: 1px solid black;
+                   border-collapse: collapse;
+                   background-color: black;
+                   color: antiquewhite;
+               }
+           </style>
+        <title>
+            Project
+        </title>
+        <meta charset="UTF-8">
+        <meta name="description" content="htmlcss-5-media">
+        <meta name="keywords" content="html, css, image, audio, video">
+        <meta name="creator" content="Benjamin Boson">
+        <meta name="viewport" content="width=device-width initial scale=1.0">
+    </head>
+    <body>
+        <section>
+            <h1>Startsida</h1>
+            <p>Titta på grisen!</p>
+        </section> 
+        <section>
+            <h2>Main content</h2>
+            <table>
+            <tr>
+                <td>
+                    <img src="media/index.jpg" alt="Pig Picture">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <audio controls>
+                        <source src="media/file_example_MP3_700KB.mp3" type="audio/mpeg">
+                            Audio file didn't load
+                    </audio>
+                </td>
+            </tr>    
+            <tr>
+                <td>
+                        <button onclick="getPlaySpeed()" type="button">Get play speed</button>
+                        <button onclick="setPlaySpeed()" type="button">Set slower play speed</button>
+                        <button onclick="resetPlaySpeed()" type="button">Reset play speed</button>
+                        <button onclick="setFasterSpeed()" type="button">Set faster play speed</button>
+                        <button onclick="setLoop()" type="button">Loop</button>
+                    <video loop autoplay controls width="320" height="240" id="firstVideo">
+                        <source src="media/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+                            Video file didn't load
+                    </video>
+                    <script>
+                            var vid = document.getElementById("firstVideo");
+    
+                            function getPlaySpeed(){
+                                alert(vid.playbackRate);
+                            }
+    
+                            function setPlaySpeed(){
+                                vid.playbackRate = 0.5;
+                            }
+
+                            function resetPlaySpeed(){
+                                vid.playbackRate = 1.0;
+                            }
+
+                            function setFasterSpeed(){
+                                vid.playbackRate = 2.0;
+                            }
+
+                            function setLoop(){
+                                if(vid.loop == true){
+                                vid.loop = false;
+                                }else if(vid.loop == false){
+                                vid.loop = true;
+                                }
+                            }
+                        </script>
+                </td>
+                <td>
+                        <button onclick="getPlaySpeed2()" type="button">Get play speed</button>
+                        <button onclick="setPlaySpeed2()" type="button">Set slower play speed</button>
+                        <button onclick="resetPlaySpeed2()" type="button">Reset play speed</button>
+                        <button onclick="setFasterSpeed2()" type="button">Set faster play speed</button>
+                        <button onclick="setLoop2()" type="button">Loop</button>
+                    <video loop autoplay controls width="320" height="240" id="secondVideo">
+                        <source src="media/SampleVideo_1280x720_1mb.mp4" type="video/mp4">
+                            Video file didn't load
+                    </video>
+                    <script>
+                            var vid2 = document.getElementById("secondVideo");
+                            
+                            function getPlaySpeed2(){
+                                alert(vid2.playbackRate);
+                            }
+    
+                            function setPlaySpeed2(){
+                                vid2.playbackRate = 0.5;
+                            }
+
+                            function resetPlaySpeed2(){
+                                vid2.playbackRate = 1.0;
+                            }
+
+                            function setFasterSpeed2(){
+                                vid2.playbackRate = 2.0;
+                            }
+
+                            function setLoop2(){
+                                if(vid2.loop == true){
+                                vid2.loop = false;
+                                }
+                                else if(vid2.loop == false){
+                                vid2.loop = true;
+                                }
+                            }
+                        </script>
+                </td>
+            </tr>
+            </table>
+        </section> 
+    </body>
+</html>
