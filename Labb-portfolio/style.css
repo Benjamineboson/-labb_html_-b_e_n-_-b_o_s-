@@ -1,0 +1,71 @@
+table,th{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(144, 158, 230);
+    margin: auto;
+    width: 35cm;
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    font-size: 0.5cm;
+}
+th{
+    text-decoration: underline;
+}
+td{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(164, 182, 194);
+    font-size: 0.4cm;
+}
+body{
+    background-color: black; 
+    margin: 0;
+}
+h1{
+    margin: 1cm;
+    text-align: left;
+    color: rgb(58, 56, 56);
+    font-size: 1.5cm;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: rgb(99, 98, 98);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    margin: 1cm;
+}
+p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    margin: 2cm;
+    color: darkslategrey;
+}
+.background{
+    border: 2px solid white;
+    border-right-style: none;
+    border-left-style: none;
+    background-image: url(https://steamuserimages-a.akamaihd.net/ugc/277347228343524934/BE619162B49D7055A94DABBC75284FB213965DCB/);
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1cm;
+    background-size: cover;
+    width: 100%;    
+}
+.profile{
+    border: 1px solid white;
+    background-image: url(media/ProfilePicture.jpg);
+    background-size: 2cm;
+    width: 2.1cm;
+    height: 2.1cm;
+    border-radius: 100%;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: cover;   
+}
+.profile_td{
+    color: white;
+    font-size: 1.5cm;
+    text-align: left;
+}
+.alignleft{
+    text-align: left;
+}

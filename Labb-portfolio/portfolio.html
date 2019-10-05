@@ -7,97 +7,38 @@
     <meta name="keywords" content="HTML,CSS,elements,navigation">
     <meta name="creator" content="Benjamin Boson">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        table,th{
-            font-family: 'Courier New', Courier, monospace;
-            color: rgb(144, 158, 230);
-            margin: auto;
-            width: 30cm;
-            border: 1px solid black;
-            padding: 5px;
-            text-align: left;
-            font-size: 0.5cm;
-        }
-        th{
-            text-decoration: underline;
-        }
-        td{
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-            color: rgb(164, 182, 194);
-            font-size: 0.4cm;
-        }
-        body{
-            background-color: black; 
-            margin: 0;
-        }
-        h1{
-            margin: 1cm;
-            text-align: left;
-            color: rgb(58, 56, 56);
-            font-size: 1.5cm;
-            font-family: 'Times New Roman', Times, serif;
-        }
-        .background{
-            border: 2px solid white;
-            border-right-style: none;
-            border-left-style: none;
-            background-image: url(https://steamuserimages-a.akamaihd.net/ugc/277347228343524934/BE619162B49D7055A94DABBC75284FB213965DCB/);
-            text-align: center;
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            font-size: 1cm;
-            background-size: cover;
-            width: 100%;    
-        }
-        .profile{
-            border: 1px solid white;
-            background-image: url(media/ProfilePicture.jpg);
-            background-size: 2cm;
-            width: 2.1cm;
-            height: 2.1cm;
-            border-radius: 100%;
-            background-repeat: no-repeat;
-            margin: auto;
-            background-size: cover;   
-        }
-        .profiletd{
-            color: white;
-            font-size: 1.5cm;
-            text-align: left;
-        }
-    </style>
-    <title>Labb-Portfolio</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <table>
-        <tr> 
-            <td class="profiletd">
-                Portfolio
-            </td>
-            <td> 
+<table>
+    <tr> 
+        <td class="profile_td">Portfolio</td>
+        <td>
                 <form class="profile">
                     <br><br><br><br>
                 </form>   
-            </td>
-        </tr>
-    </table>
-        <form class="background">                                                                               
-            <br><br><br><br><br>
-        </form>
+        </td>
+    </tr>
+</table>
+    <form class="background">                                                                               
+        <br><br><br><br><br>
+    </form>
     <table>
-        <tr>
-            <th>Uppgifter</th>
-            <th>Startsida</th>
-        </tr>
-        <tr>
-            <td>
-                <ul>
-                    <li><a href="uppgifter/uppgift1/index.html" target="_blank">Uppgift 1</a></li>
-                    <li><a href="uppgifter/uppgift2/index.html" target="_blank">Uppgift 2</a></li>
-                    <li><a href="uppgifter/uppgift3/index.html" target="_blank">Uppgift 3</a></li>
-                </ul>   
-           </td>
-           <td><a href="index.html">Tillbaka till startsidan</a></td>
-        </tr>
-    </table>
+    <tr>
+        <th>Uppgifter</th>
+        <th>Startsida</th>
+    </tr>
+    <tr>
+        <td>
+            <ul>
+                <li><a href="uppgifter/uppgift1/index.html" target="_blank">Uppgift 1</a></li>
+                <li><a href="uppgifter/uppgift2/index.html" target="_blank">Uppgift 2</a></li>
+                <li><a href="uppgifter/uppgift3/index.html" target="_blank">Uppgift 3</a></li>
+            </ul>   
+        </td>
+        <td> <a href="index.html">Tillbaka till startsidan</a> </td>
+    </tr>
+</table>
 </body>
 </html>
