@@ -13,13 +13,11 @@ table,th{
     text-align: left;
     font-size: 23px;
 }
-th{
-    text-decoration: underline;
-}
-td{
+td,a{
     font-family: 'Amatic SC', cursive;
     color: rgb(164, 182, 194);
     font-size: 22px;
+    text-decoration: none;
 }
 body{
     background-color: black; 
@@ -62,11 +60,6 @@ background-image: url(https://cdn.mos.cms.futurecdn.net/xePTkUayyCCn7QnVXUjhTg.j
 background-blend-mode: darken;
 background-repeat: no-repeat;
 background-size: cover;
-}
-img{
-    width: 100%;
-    margin: 0;
-    height: 100%;
 }
 .profile{
     border: 2px solid white;
