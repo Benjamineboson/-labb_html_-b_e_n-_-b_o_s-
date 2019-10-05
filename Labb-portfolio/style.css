@@ -1,20 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Concert+One&display=swap');
+
 table,th{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Concert One', cursive;
     color: rgb(144, 158, 230);
     margin: auto;
     width: 35cm;
     border: 1px solid black;
     padding: 5px;
     text-align: left;
-    font-size: 0.5cm;
+    font-size: 23px;
 }
 th{
     text-decoration: underline;
 }
 td{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Amatic SC', cursive;
     color: rgb(164, 182, 194);
-    font-size: 0.4cm;
+    font-size: 22px;
 }
 body{
     background-color: black; 
@@ -29,15 +34,17 @@ h1{
 }
 h2{
     color: rgb(99, 98, 98);
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     text-align: center;
-    margin: 1cm;
+    padding: 5px 5px 5px 5px;
+    font-size: 35px;
 }
 p{
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Indie Flower', cursive;
+    font-size: 28px;
     text-align: left;
     margin: 2cm;
-    color: darkslategrey;
+    color: rgb(244, 245, 245);
 }
 .background{
     border: 2px solid white;
@@ -50,8 +57,19 @@ p{
     background-size: cover;
     width: 100%;    
 }
+.background2{
+background-image: url(https://cdn.mos.cms.futurecdn.net/xePTkUayyCCn7QnVXUjhTg.jpg);
+background-blend-mode: darken;
+background-repeat: no-repeat;
+background-size: cover;
+}
+img{
+    width: 100%;
+    margin: 0;
+    height: 100%;
+}
 .profile{
-    border: 1px solid white;
+    border: 2px solid white;
     background-image: url(media/ProfilePicture.jpg);
     background-size: 2cm;
     width: 2.1cm;
@@ -68,4 +86,7 @@ p{
 }
 .alignleft{
     text-align: left;
+}
+hr{
+    border: 1.5px solid white;
 }
