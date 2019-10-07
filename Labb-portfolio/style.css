@@ -41,7 +41,8 @@ p{
     font-family: 'Indie Flower', cursive;
     font-size: 28px;
     text-align: left;
-    margin: 2cm;
+    margin-bottom: 0.5cm;
+    size: cover;
     color: rgb(244, 245, 245);
 }
 .background{
@@ -53,13 +54,14 @@ p{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1cm;
     background-size: cover;
-    width: 100%;    
+       
 }
 .background2{
 background-image: url(https://cdn.mos.cms.futurecdn.net/xePTkUayyCCn7QnVXUjhTg.jpg);
 background-blend-mode: darken;
 background-repeat: no-repeat;
 background-size: cover;
+width: 100%;
 }
 .profile{
     border: 2px solid white;
